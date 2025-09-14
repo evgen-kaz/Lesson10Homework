@@ -9,6 +9,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 
 public class TestBase {
+    public static String REPOSITORY = "evgen-kaz/Lesson9";
+
     @BeforeAll
     static void setupConfigAll() {
         Configuration.browserSize = "1920x1080";

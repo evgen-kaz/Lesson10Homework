@@ -1,6 +1,7 @@
 package guru.qa.allure.tests;
 
 import com.codeborne.selenide.Condition;
+import guru.qa.allure.tests.steps.StepTest;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selectors.byText;
@@ -11,7 +12,6 @@ import static io.qameta.allure.Allure.step;
 import static org.openqa.selenium.By.linkText;
 
 public class LambdaTest extends TestBase {
-    private static final String REPOSITORY = "evgen-kaz/Lesson9";
 
     @Test
     public void testLambdaStepIssueSearch() {

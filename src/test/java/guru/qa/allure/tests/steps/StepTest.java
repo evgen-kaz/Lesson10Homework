@@ -1,4 +1,4 @@
-package guru.qa.allure.tests;
+package guru.qa.allure.tests.steps;
 
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.Step;
