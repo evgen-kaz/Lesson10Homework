@@ -30,7 +30,7 @@ public class LambdaTest extends TestBase {
         });
 
         step("Проверяем наличие Issue", () -> {
-            $(withText("Issues")).should(Condition.exist);
+            $(withText(NAME_TAB)).should(Condition.exist);
         });
     }
 
@@ -41,6 +41,6 @@ public class LambdaTest extends TestBase {
         steps.openMainPage();
         steps.searchForRepository(REPOSITORY);
         steps.clickOnRepositoryLink(REPOSITORY);
-        steps.shouldSeeIssue("Issues");
+        steps.shouldSeeIssue(NAME_TAB);
     }
 }

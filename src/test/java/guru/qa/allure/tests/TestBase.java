@@ -10,6 +10,7 @@ import org.junit.jupiter.api.BeforeEach;
 
 public class TestBase {
     public static String REPOSITORY = "evgen-kaz/Lesson9";
+    public static String NAME_TAB = "Issues";
 
     @BeforeAll
     static void setupConfigAll() {

@@ -28,7 +28,7 @@ public class StepTest {
     }
 
     @Step("Проверяем наличие Issue")
-    public void shouldSeeIssue(String issue) {
-        $(withText(issue)).should(Condition.exist);
+    public void shouldSeeIssue(String tab) {
+        $(withText(tab)).should(Condition.exist);
     }
 }
